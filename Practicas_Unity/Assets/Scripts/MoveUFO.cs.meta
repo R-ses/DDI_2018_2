@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 53064c304626b46fbad99cda68f94795
+guid: 1c34a1aed5189aa45978c64b3e2a4a32
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - pausepanel: {instanceID: 0}
-  - musicmanager: {fileID: 100000, guid: 9f1c955688b614b259cf703b0b1c73d2, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
