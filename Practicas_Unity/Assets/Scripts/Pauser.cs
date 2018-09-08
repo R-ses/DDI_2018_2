@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class Pauser : MonoBehaviour {
 	private bool paused = false;
     public GameObject pausepanel;
-    public GameObject musicmanager;
+    public AudioSource musicmanager;
+    private bool muted = false;
 
 	
 	// Update is called once per frame
@@ -45,9 +46,9 @@ public class Pauser : MonoBehaviour {
 
     public void Mute()
     {
-
         Debug.Log("Mute");
-        musicmanager.SetActive(false);
+
+        musicmanager.mute = !musicmanager.mute;
             
     }
 
