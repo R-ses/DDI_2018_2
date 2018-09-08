@@ -47,8 +47,13 @@ public class Pauser : MonoBehaviour {
     public void Mute()
     {
         Debug.Log("Mute");
+<<<<<<< HEAD
 
         musicmanager.mute = !musicmanager.mute;
+=======
+        musicmanager.SetActive(false);
+        
+>>>>>>> master
             
     }
 
