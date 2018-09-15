@@ -22,6 +22,11 @@ public class Interactable2 : MonoBehaviour
         {
             gameObject.GetComponent<Renderer>().material.color = color;
         }
+		if (Input.GetKeyDown(KeyCode.E) && isPlayerInside)
+		{
+				FindObjectOfType<Inventory_Script>().AddNewItem();
+				Destroy(this.gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,6 +35,10 @@ public class Interactable2 : MonoBehaviour
         {
             infoPanel.SetActive(true);
             isPlayerInside = true;
+			
+	
+		
+		
         }
     }
 
