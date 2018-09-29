@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="wedd" size="0.100000 0.139522" />
+    <ImageTarget name="smokeweedeveryday" size="0.100000 0.139407" />
+    <ImageTarget name="slick" size="0.100000 0.144751" />
+    <ImageTarget name="Slap" size="0.100000 0.140884" />
+    <ImageTarget name="hmmm" size="0.100000 0.145679" />
+    <ImageTarget name="hi5" size="0.100000 0.147739" />
+    <ImageTarget name="boom" size="0.100000 0.143686" />
+    <ImageTarget name="boing" size="0.100000 0.139187" />
+    <ImageTarget name="fan-fucking-tastic" size="0.100000 0.146009" />
+    <ImageTarget name="awesome" size="0.100000 0.143249" />
+  </Tracking>
+</QCARConfig>
